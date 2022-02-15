@@ -1,0 +1,11 @@
+:root {
+  --main-bg-color: #111111;
+  --secondary-bg-color: white;
+  --main-color: white;
+  --secondary-color: #fcac45;
+}
+
+* {
+  margin: 0;
+}
+
