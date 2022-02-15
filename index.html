@@ -6,65 +6,77 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MyCompany landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles/style.css">
 </head>
 
 <body>
   <header class="header">
-    <div class="header__logo">MyCompany</div>
-    <nav class="header__nav">
-      <a class="header__link" href="#welcome">home</a>
-      <a class="header__link" href="#about">about</a>
-      <a class="header__link" href="#">services</a>
-      <a class="header__link" href="#">portfolio</a>
-      <a class="header__link" href="#">testimonials</a>
-      <a class="header__link" href="#">contact</a>
-    </nav>
-    <div class="header__popup-icon"></div>
+    <div class="header__wrapper wrapper">
+      <div class="header__logo">MyCompany</div>
+      <nav class="header__nav">
+        <a class="header__link" href="#welcome">home</a>
+        <a class="header__link" href="#about">about</a>
+        <a class="header__link" href="#">services</a>
+        <a class="header__link" href="#">portfolio</a>
+        <a class="header__link" href="#">testimonials</a>
+        <a class="header__link" href="#">contact</a>
+      </nav>
+      <div class="header__popup-icon"><span></span></div>
+    </div>
   </header>
 
 
   <main class="content">
 
     <section id="welcome" class="section-welcome">
-      <h1 class="section-welcome__label">
-        Welcome on <mark class="colored-mark">MyCompany</mark>
-      </h1>
-      <p class="section-welcome__text">
-        We are a digital agency with
-        <mark>years of expirience</mark>
-        and with
-        <mark>extraordinaty people</mark>
-      </p>
+      <div class="wrapper">
+        <h1 class="section-welcome__label">
+          Welcome on <mark class="colored-mark">MyCompany</mark>
+        </h1>
+        <p class="section-welcome__text">
+          We are a digital agency with
+          <mark>years of expirience</mark>
+          and with
+          <mark>extraordinaty people</mark>
+        </p>
+      </div>
     </section>
 
     <section id="about" class="section-about">
-      <figure class="section-about__figure"></figure>
-      <article class="section-about__article">
-        <h1 class="section-about__label">Some words <mark>about us</mark></h1>
-        <p class="section-about__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Voluptates illum facere ea non, impedit porro dolorum
-          molestias alias, iste sequi nihil.
-        </p>
-        <ul class="section-about__list">
-          <li class="section-about__list-item">
-            <mark>Mission -</mark> We deliver uniqueness and quality
-          </li>
-          <li class="section-about__list-item">
-            <mark>Skills -</mark> Delivering fast and exellent results
-          </li>
-          <li class="section-about__list-item">
-            <mark>Clients -</mark> Satisfied clients thanks to our expirience
-          </li>
-        </ul>
-      </article>
+      <div class="wrapper">
+        <figure class="section-about__figure"></figure>
+        <article class="section-about__article">
+          <h1 class="section-about__label">Some words <mark>about us</mark></h1>
+          <p class="section-about__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates illum facere ea non, impedit porro dolorum
+            molestias alias, iste sequi nihil.
+          </p>
+          <ul class="section-about__list">
+            <li class="section-about__list-item">
+              <mark>Mission -</mark> We deliver uniqueness and quality
+            </li>
+            <li class="section-about__list-item">
+              <mark>Skills -</mark> Delivering fast and exellent results
+            </li>
+            <li class="section-about__list-item">
+              <mark>Clients -</mark> Satisfied clients thanks to our expirience
+            </li>
+          </ul>
+        </article>
+      </div>
     </section>
 
     <section id="team" class="section-team">
-      <h1 class="section-team__label"><mark>Our team</mark></h1>
-      <div class="section-team__container">
-        <div class="section-team__member-card">
-          
+      <div class="wrapper">
+        <h1 class="section-team__label"><mark>Our team</mark></h1>
+        <div class="section-team__container">
+          <div class="section-team__member-card">
+
+          </div>
         </div>
       </div>
     </section>
