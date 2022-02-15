@@ -1,32 +1,3 @@
-:root {
-  --main-bg-color: #111111;
-  --main-color: white;
-  --additional-color: #fcac45;
-}
-
-* {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-  outline: none;
-}
-
-body {
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 10px;
-}
-
-.wrapper {
-  width: 1140px;
-  margin: 0 auto;
-}
-
-
 .header {
   height: 100px;
   background-color: var(--main-bg-color);
