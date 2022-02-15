@@ -1,5 +1,8 @@
 :root {
   --main-bg-color: #111111;
   --main-color: white;
+  --dark-color: #222222;
+  --mid-color: #6c6c6c;
+  --light-color: #999999;
   --additional-color: #fcac45;
 }

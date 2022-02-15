@@ -10,3 +10,27 @@ body {
   width: 1140px;
   margin: 0 auto;
 }
+
+h1, h2 {
+  font-size: 4.4em;
+  font-weight: 300;
+  line-height: 1.05;
+  letter-spacing: -3px;
+  word-spacing: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+mark {
+  font-weight: 700;
+  background: none;
+  color: inherit;
+}
+
+.colored-mark {
+  color: var(--additional-color);
+}
