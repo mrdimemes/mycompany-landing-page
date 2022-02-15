@@ -1,0 +1,69 @@
+.section-about {
+  background-color: var(--main-color);
+}
+
+.section-about__wrapper {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-about__figure {
+  width: 500px;
+  height: 400px;
+}
+
+.section-about__article {
+  width: 460px;
+}
+
+.section-about__label {
+  display: inline-block;
+  font-size: 3.4em;
+  text-align: left;
+  color: var(--dark-color);
+  margin-bottom: 45px;
+}
+
+.section-about__text {
+  font-size: 1.8em;
+  color: var(--mid-color);
+  text-align: left;
+  margin-bottom: 35px;
+}
+
+.section-about__list {
+  padding-left: 30px;
+}
+.section-about__list-item {
+  font-size: 1.6em;
+  font-style: italic;
+  color: var(--mid-color);
+  position: relative;
+}
+.section-about__list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.section-about__list-item::before,
+.section-about__list-item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.section-about__list-item::before {
+  width: 15px;
+  height: 15px;
+  border: 2px solid var(--mid-color);
+  top: 4px;
+  left: -30px;
+}
+.section-about__list-item::after {
+  width: 5px;
+  height: 5px;
+  background-color: var(--mid-color);
+  top: 9px;
+  left: -25px;
+}

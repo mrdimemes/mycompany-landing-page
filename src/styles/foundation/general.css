@@ -25,12 +25,49 @@ p {
   text-align: center;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
 mark {
   font-weight: 700;
+  font-style: normal;
   background: none;
   color: inherit;
 }
 
 .colored-mark {
   color: var(--additional-color);
+}
+
+.line-100px,
+.line-100percent {
+  position: relative;
+  margin-bottom: 0.5em;
+}
+.line-100px::after,
+.line-100percent::after {
+  content: "";
+  display: block;
+  height: 4px;
+  background-color: var(--additional-color);
+  position: absolute;
+  bottom: -0.5em;
+  left: 0;
+  right: 0;
+}
+.line-100px::after {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+.line-100percent::after {
+  width: 100%;
 }
