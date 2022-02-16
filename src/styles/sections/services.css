@@ -1,0 +1,22 @@
+@import url(../components/service.css);
+
+
+.section-services {
+  background-color: var(--main-color);
+}
+
+.section-services__wrapper {
+  padding: 90px 0;
+}
+
+.section-services__label {
+  color: var(--dark-color);
+  margin-bottom: 80px;
+}
+
+.section-services__text {
+  font-size: 1.6em;
+  font-style: italic;
+  color: var(--mid-color);
+  margin-bottom: 100px;
+}

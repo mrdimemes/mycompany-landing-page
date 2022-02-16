@@ -5,11 +5,6 @@
 }
 
 .member-card__photo {
-  display: inline-block;
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  background-color: var(--light-color);
   margin-bottom: 15px;
 }
 .member-card__photo img {

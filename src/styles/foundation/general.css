@@ -80,3 +80,12 @@ mark {
   row-gap: 30px;
   width: 100%;
 }
+
+.card-photo {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: var(--main-color);
+}
