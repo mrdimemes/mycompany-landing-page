@@ -1,0 +1,33 @@
+.member-card {
+  width: 260px;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.member-card__photo {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: var(--light-color);
+  margin-bottom: 15px;
+}
+.member-card__photo img {
+  border-radius: 50%;
+}
+
+.member-card__name {
+  font-size: 2.0em;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.member-card__position {
+  font-size: 1.6em;
+  margin-bottom: 30px;
+}
+
+.member-card__text {
+  font-size: 1.4em;
+  line-height: 1.7;
+}
