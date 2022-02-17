@@ -6,6 +6,11 @@ body {
   font-size: 10px;
 }
 
+input, textarea {
+  font-family: 'Open Sans', sans-serif;
+  color: inherit;
+}
+
 .wrapper {
   width: 1140px;
   margin: 0 auto;

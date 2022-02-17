@@ -1,0 +1,24 @@
+@import url(contact-form.css);
+
+
+.section-contact {
+  background-color: var(--main-color);
+}
+
+.section-contact__wrapper {
+  padding-top: 90px;
+  padding-bottom: 100px;
+  width: 750px;
+}
+
+.section-contact__label {
+  margin-bottom: 80px;
+  color: var(--dark-color);
+}
+
+.section-contact__text {
+  font-size: 1.6em;
+  font-style: italic;
+  color: var(--mid-color);
+  margin-bottom: 90px;
+}

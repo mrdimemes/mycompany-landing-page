@@ -22,7 +22,7 @@
         <a class="header__link" href="#services">services</a>
         <a class="header__link" href="#works">portfolio</a>
         <a class="header__link" href="#testimonials">testimonials</a>
-        <a class="header__link" href="#">contact</a>
+        <a class="header__link" href="#contact">contact</a>
       </nav>
       <div class="header__popup-icon"><span></span></div>
     </div>
@@ -366,7 +366,7 @@
       </div>
     </section>
 
-    <section class="section-contact">
+    <section class="section-contact" id="contact">
       <div class="section-contact__wrapper wrapper">
         <h1 class="section-contact__label line-100px">
           <mark>Contact us</mark>
@@ -404,16 +404,17 @@
               class="contact-form__input contact-form__textarea"
               name="massage"
               required
+              maxlength="1500"
             ></textarea>
           </div>
           <div class="contact-form__submit-container">
-            <input type="submit" value="SEND">
+            <input class="contact-form__submit" type="submit" value="SEND">
           </div>
         </form>
       </div>
     </section>
   </main>
-  <footer class="content"></footer>
+  <footer class="footer"></footer>
 </body>
 
 </html>
