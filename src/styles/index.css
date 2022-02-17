@@ -3,10 +3,10 @@
 @import url(foundation/general.css);
 
 @import url(sections/header/header.css);
-@import url(sections/content/welcome.css);
-@import url(sections/content/about.css);
-@import url(sections/content/team.css);
-@import url(sections/content/services.css);
-@import url(sections/content/clients.css);
-@import url(sections/content/works.css);
+@import url(sections/content/welcome/welcome.css);
+@import url(sections/content/about/about.css);
+@import url(sections/content/team/team.css);
+@import url(sections/content/services/services.css);
+@import url(sections/content/clients/clients.css);
+@import url(sections/content/works/works.css);
 @import url(sections/content/testimonials/testimonials.css);
