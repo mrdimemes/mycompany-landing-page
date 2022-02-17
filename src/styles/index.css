@@ -2,10 +2,10 @@
 @import url(foundation/colors.css);
 @import url(foundation/general.css);
 
-@import url(sections/header.css);
-@import url(sections/welcome.css);
-@import url(sections/about.css);
-@import url(sections/team.css);
-@import url(sections/services.css);
-@import url(sections/clients.css);
-@import url(sections/works.css);
+@import url(sections/header/header.css);
+@import url(sections/content/welcome.css);
+@import url(sections/content/about.css);
+@import url(sections/content/team.css);
+@import url(sections/content/services.css);
+@import url(sections/content/clients.css);
+@import url(sections/content/works.css);
