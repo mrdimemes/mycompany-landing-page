@@ -1,0 +1,12 @@
+.testimonial {
+  font-size: 1.8em;
+}
+
+.testimonial__text {
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+
+.testimonial__person {
+  opacity: 0.7;
+}
