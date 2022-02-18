@@ -119,6 +119,12 @@ mark {
 .line-100percent::after {
   width: 100%;
 }
+@media screen and (max-width: 480px) {
+  .line-100px::after,
+  .line-100percent::after {
+    height: 2px;
+  }
+}
 
 .container {
   display: flex;

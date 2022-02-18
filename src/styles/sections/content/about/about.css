@@ -3,7 +3,8 @@
 }
 
 .section-about__wrapper {
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,3 +68,104 @@
   top: 9px;
   left: -25px;
 }
+
+
+@media screen and (max-width: 1280px) {
+  .section-about__figure {
+    width: 450px;
+    height: 360px;
+  }
+  .section-about__article {
+    width: 414px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .section-about__wrapper {
+    flex-direction: column-reverse;
+    row-gap: 70px;
+  }
+  .section-about__article {
+    width: 100%;
+  }
+  .section-about__label {
+    display: block;
+    text-align: center;
+  }
+  .section-about__label::after {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-about__text {
+    text-align: center;
+  }
+  .section-about__list {
+    width: max-content;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-about__figure {
+    width: 225px;
+    height: 180px;
+  }
+  .section-about__wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    row-gap: 40px;
+  }
+  .section-about__label {
+    font-size: 2.8em;
+    margin-bottom: 30px;
+  }
+  .section-about__text {
+    font-size: 1.6em;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section-about__wrapper {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    row-gap: 25px;
+  }
+  .section-about__label {
+    font-size: 2.0em;
+    margin-bottom: 25px;
+  }
+  .section-about__text {
+    text-align: justify;
+    font-size: 1.4em;
+    margin-bottom: 25px;
+  }
+  .section-about__list {
+    width: 100%;
+    padding-left: 20px;
+  }
+  .section-about__list-item {
+    font-size: 1.4em;
+  }
+  .section-about__list-item:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  .section-about__list-item::before {
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    left: -20px;
+  }
+  .section-about__list-item::after {
+    width: 4px;
+    height: 4px;
+    top: 8px;
+    left: -17px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .section-about__figure {
+    display: none;
+  }
+}
+
