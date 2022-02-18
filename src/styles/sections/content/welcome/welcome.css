@@ -18,3 +18,25 @@
   color: var(--main-color);
   opacity: 0.75;
 }
+
+@media screen and (max-width: 1024px) {
+  .section-welcome__text {
+    font-size: 1.8em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-welcome {
+    padding: 75px 0;
+  }
+  .section-welcome__text {
+    font-size: 1.6em;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section-welcome {
+    padding: 60px 0;
+  }
+  .section-welcome__text {
+    font-size: 1.4em;
+  }
+}
