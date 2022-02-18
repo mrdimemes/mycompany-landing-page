@@ -36,6 +36,9 @@ input, textarea {
   }
 }
 
+section {
+  overflow-x: hidden;
+}
 
 h1 {
   font-size: 4.4em;
