@@ -6,6 +6,7 @@
   left: 0;
   right: 0;
   z-index: 10;
+  transition: 0.5s;
 }
 
 .header_scrolled {
@@ -26,6 +27,7 @@
   cursor: default;
   transition: 0.3s;
   color: var(--main-color);
+  z-index: 10;
 }
 .header__logo:hover {
   color: var(--additional-color);
@@ -133,5 +135,41 @@
 
   .header__link {
     width: min-content;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 75px;
+  }
+  .header__nav_active {
+    top: 75px;
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    height: 60px;
+  }
+  .header__logo {
+    font-size: 1.8em;
+  }
+  .header__nav_active {
+    top: 60px;
+  }
+  .header__popup-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .header__popup-icon_active::after {
+    bottom: 43%;
+  }
+  .header__link {
+    font-size: 1.2em;
+  }
+  .header__link::after {
+    height: 2px;
+    bottom: -5px;
   }
 }
