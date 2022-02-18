@@ -24,6 +24,18 @@ input, textarea {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+}
+
 
 h1 {
   font-size: 4.4em;
