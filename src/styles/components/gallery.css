@@ -12,6 +12,7 @@
   height: 240px;
   background-color: var(--main-bg-color);
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .gallery__card:hover {
