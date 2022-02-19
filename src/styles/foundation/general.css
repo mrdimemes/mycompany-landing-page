@@ -143,3 +143,8 @@ mark {
   border-radius: 50%;
   background-color: var(--main-color);
 }
+@media screen and (max-width: 1024px) {
+  .card-photo {
+    width: 100px; height: 100px;
+  }
+}

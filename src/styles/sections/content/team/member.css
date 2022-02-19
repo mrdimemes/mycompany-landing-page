@@ -26,3 +26,46 @@
   font-size: 1.4em;
   line-height: 1.7;
 }
+
+@media screen and (max-width: 1024px) {
+  .member-card {
+    width: 220px;
+  }
+  
+  .member-card__photo {
+    margin-bottom: 10px;
+  }
+  
+  .member-card__name {
+    font-size: 1.8em;
+    margin-bottom: 3px;
+  }
+  
+  .member-card__position {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .member-card__name {
+    font-size: 1.6em;
+  }
+  .member-card__position {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .member-card {
+    width: 100%;
+  }
+  .member-card__name {
+    font-size: 1.4em;
+  }
+  .member-card__position {
+    font-size: 1.3em;
+  }
+  .member-card__text {
+    font-size: 1.3em;
+  }
+}

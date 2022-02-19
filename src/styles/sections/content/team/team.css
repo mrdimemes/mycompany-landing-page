@@ -14,3 +14,27 @@
   color: var(--main-color);
   margin-bottom: 130px;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .section-team__wrapper {
+    padding-bottom: 100px;
+  }
+  .section-team__label {
+    margin-bottom: 70px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-team__wrapper {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .section-team__label {
+    margin-bottom: 45px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section-team__label {
+    margin-bottom: 30px;
+  }
+}
