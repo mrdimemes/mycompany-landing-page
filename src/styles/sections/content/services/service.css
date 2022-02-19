@@ -11,9 +11,10 @@
   align-items: center;
   margin-bottom: 25px;
 }
+
 .service-card__icon {
-  width: 55px;
-  height: 55px;
+  width: 40%;
+  height: 40%;
 }
 
 .service-card__label {
@@ -25,4 +26,43 @@
 
 .service-card__text {
   font-size: 1.4em;
+}
+
+@media screen and (max-width: 1024px) {
+  .service-card {
+    width: 220px;
+  }
+
+  .service-card__label {
+    font-size: 1.8em;
+  }
+
+  .service-card__figure {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service-card__label {
+    font-size: 1.6em;
+    margin-bottom: 5px;
+  }
+
+  .service-card__figure {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .service-card {
+    width: 100%;
+  }
+
+  .service-card__label {
+    font-size: 1.4em;
+  }
+
+  .service-card__text {
+    font-size: 1.3em;
+  }
 }
