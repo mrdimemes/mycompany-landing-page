@@ -22,6 +22,7 @@
   margin-bottom: 5px;
   text-align: left;
 }
+
 .contact-form__input-label::after {
   content: " *";
   color: red;
@@ -56,4 +57,52 @@
   font-weight: 700;
   width: 160px;
   height: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .contact-form {
+    row-gap: 20px;
+  }
+
+  .contact-form__callback-container {
+    column-gap: 20px;
+  }
+
+  .contact-form__input-label {
+    font-size: 1.3em;
+    margin-bottom: 2px;
+  }
+
+  .contact-form__input {
+    height: 30px;
+    padding: 0 7px;
+  }
+
+  .contact-form__textarea {
+    padding: 7px;
+    height: 120px;
+  }
+
+  .contact-form__submit {
+    font-size: 1.4em;
+    width: 100%;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-form {
+    row-gap: 15px;
+  }
+
+  .contact-form__callback-container {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  .contact-form__input-label {
+    font-size: 1.3em;
+    margin-bottom: 2px;
+  }
 }

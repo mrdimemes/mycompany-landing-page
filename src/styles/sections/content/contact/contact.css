@@ -6,9 +6,11 @@
 }
 
 .section-contact__wrapper {
-  padding-top: 90px;
+  padding-top: 100px;
   padding-bottom: 100px;
   width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-contact__label {
@@ -21,4 +23,46 @@
   font-style: italic;
   color: var(--mid-color);
   margin-bottom: 90px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .section-contact__wrapper {
+    width: 100%;
+  }
+
+  .section-contact__label {
+    margin-bottom: 45px;
+  }
+
+  .section-contact__text {
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-contact__wrapper {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .section-contact__label {
+    margin-bottom: 30px;
+  }
+
+  .section-contact__text {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section-contact__label {
+    margin-bottom: 25px;
+  }
+
+  .section-contact__text {
+    margin-bottom: 25px;
+    font-size: 1.4em;
+    text-align: justify;
+  }
 }
