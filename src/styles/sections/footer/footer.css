@@ -21,13 +21,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.3s;
+}
+
+.footer__link:hover {
+  transform: scale(1.1);
 }
 
 .footer__icon {
   width: 60%;
   height: 60%;
 }
-
 
 @media screen and (max-width: 768px) {
   .footer__wrapper {

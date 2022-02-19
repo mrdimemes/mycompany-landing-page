@@ -11,6 +11,12 @@
   width: 260px;
   height: 240px;
   background-color: var(--main-bg-color);
+  transition: 0.5s;
+}
+
+.gallery__card:hover {
+  transform: scale(1.1);
+  border: 2px solid black;
 }
 
 .gallery__card img {
