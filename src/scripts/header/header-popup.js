@@ -7,7 +7,20 @@ const headerPopup = () => {
     headerNav.classList.toggle("header__nav_active");
   }
 
-  popupIcon.addEventListener("click", toggleHeaderPopup);
+  popupIcon.addEventListener("click", (event) => {
+    event.stopPropagation();
+    toggleHeaderPopup()
+  });
+
+  document.addEventListener('click', (event) => {
+    const target = event.target;
+    const isTargetPopup = target == headerNav || headerNav.contains(target);
+    const isActive = headerNav.classList.contains("header__nav_active");
+
+    if (!isTargetPopup && isActive) {
+      toggleHeaderPopup();
+    }
+  });
 }
 
 headerPopup();
