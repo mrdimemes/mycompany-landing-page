@@ -14,16 +14,19 @@ body {
 ::-webkit-scrollbar {
   width: 10px;
 }
+
 ::-webkit-scrollbar-track {
   background-color: var(--main-bg-color);
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--additional-color);
   border-radius: 5px;
   border: 2px solid var(--main-bg-color);
 }
 
-input, textarea {
+input,
+textarea {
   font-family: 'Open Sans', sans-serif;
   color: inherit;
 }
@@ -79,6 +82,15 @@ h1 {
   h1 {
     font-size: 2.8em;
     word-spacing: normal;
+  }
+
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    border: 0;
   }
 }
 
