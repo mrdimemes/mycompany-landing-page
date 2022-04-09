@@ -13,6 +13,7 @@
   background-color: var(--main-bg-color);
   transition: 0.5s;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .gallery__card:hover {

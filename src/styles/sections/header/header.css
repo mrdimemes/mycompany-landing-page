@@ -39,6 +39,7 @@
   font-size: 1.4em;
   font-weight: 700;
   position: relative;
+  -webkit-tap-highlight-color: transparent;
 }
 .header__link::after {
   content: "";
@@ -62,6 +63,7 @@
   align-items: center;
   position: relative;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 .header__popup-icon span {
   display: block;
