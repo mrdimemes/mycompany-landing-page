@@ -17,7 +17,6 @@
 
 .gallery__card:hover {
   transform: scale(1.1);
-  border: 2px solid black;
 }
 
 .gallery__card img {
